@@ -209,13 +209,19 @@ img, video, audio, iframe, table, form {
 
 header {
   margin: 0 0 30px;
-  
+
 }
 
 
 /*////////// NAVBAR //////////*/
 
-
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
 
 /*////////// LOGO //////////*/
 
